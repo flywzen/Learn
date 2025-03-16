@@ -176,7 +176,6 @@ int main() {
     cout << "Masukkan angka a: ";
     cin >> a;
 
-    // Proses dan output
     processList(n, arr, a);
 
     return 0;
