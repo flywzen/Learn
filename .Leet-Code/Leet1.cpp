@@ -5,7 +5,7 @@ public:
         int total = n * n;
         vector<int> freq(total + 1, 0); // Frequency array from 0 to total
 
-        // Count occurrences of each number in the grid
+       
         for (int i = 0; i < n; ++i) {
             for (int j = 0; j < n; ++j) {
                 int num = grid[i][j];
